@@ -1,10 +1,8 @@
-const path = require('path')
 
-const express = require('express')
 const app = express()
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 10423;
 
 const numerologie = require('./back/numerologie'); //import
 
